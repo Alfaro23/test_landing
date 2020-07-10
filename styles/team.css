@@ -7,7 +7,7 @@
 }
 
 .team{
-    background-image: url(bg.png);
+    background-image: url(../images/bg.png);
     display: flex;
     flex-direction: column;
 }
