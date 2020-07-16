@@ -85,7 +85,7 @@
     }
     #logo_txt label.toggleMenu .fa{
         position: absolute;
-        top: 25px;
+        top: 24px;
         left: 10px;
         margin-right: 5px;
     }
@@ -97,6 +97,9 @@
         font-size: 25px;
     }
     #jumbotron p {
-        font-size: 55px;
+        font-size: 45px;
+    }
+    #introducing img{
+        display: none;
     }
 }
