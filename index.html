@@ -5,34 +5,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="./styles/header_style.css" />
-    <link rel="stylesheet" href="styles/problem_style.css" />
-    <link rel="stylesheet" href="styles/introducing.css" />
     <link rel="shortcut icon" href="images/PPC_Logo_icon.png" type="image/png" />
-    <link rel="stylesheet" href="styles/team.css" />
+    <link rel="stylesheet" href="styles/aos.css">
     <title>PiedPiper</title>
-    <script src="https://use.fontawesome.com/f142200566.js"></script>
+    <script src="js/aos.js"></script>
 </head>
 
 <body>
-    <header id="header">
-        <a href="#" id="logo"><img src="images/logo.png" /></a>
-        <div id="logo_txt">
-            <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
-            <label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Menu</label>
-            <ul>
-                <li><a href="#problem">the problem</a> <span>|</span></li>
-                <li><a href="#Introducing"> PiedPiperCoin</a> <span>|</span></li>
-                <li><a href="#team"> the team</a></li>
-            </ul>
-        </div>
+    <header id="header" data-aos="fade-down" data-aos-duration="1500">
+        <section class="head container">
+            <a href="#" id="logo"><img src="images/logo.png" /></a>
+            <div id="logo_txt">
+                <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+                <label for="menu" class="toggleMenu">Menu</label>
+                <ul>
+                    <li><a href="#problem">the problem</a> <span>|</span></li>
+                    <li><a href="#Introducing"> PiedPiperCoin</a> <span>|</span></li>
+                    <li><a href="#team"> the team</a></li>
+                </ul>
+            </div>
+        </section>
     </header>
-    <div id="jumbotron">
-            <p>
-                PiperNet Is Here
-            </p>
-        </div>
-    <div id="problem_body">
+    <section class="jumbotron" data-aos="fade-down" data-aos-duration="1500">
+        <section class="container">
+            <p>PiperNet Is Here</p>
+        </section>
+    </section>
+    <section id="problem_body" data-aos="fade-right" data-aos-duration="2000">
+        <section class="container">
             <p id="teg"><a name="problem"> The Problem</a></p>
             <div id="info">
                 <p>
@@ -52,14 +52,18 @@
                     Put even simpler — <b>it’s the internet, completely decentralized.</b>
                 </p>
             </div>
-    </div>
-    <div id="hero_block">
+        </section>
+    </section>
+    <section id="hero_block" data-aos="flip-up" data-aos-duration="1500">
+        <section class="container">
             <p>
                 We’re in this together! All of our computers and phones join in a network to make the strongest
                 supercomputer the world has ever seen.
             </p>
-    </div>
-    <div id="introducing">
+        </section>
+    </section>
+    <section id="introducing" data-aos="fade-right" data-aos-duration="2000">
+        <section class="container">
             <p><a name="Introducing">Introducing PiedPiperCoin</a></p>
             <img src="images/PPC Logo.png" />
 
@@ -75,43 +79,50 @@
                 Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll
                 love all you can do with PiedPiperCoin.
             </p>
-    </div>
-    <div class="team">
-        <p><a name="team">The Team</a></p>
+        </section>
+    </section>
+    <section class="team">
+        <section class="container">
+            <p><a name="team">The Team</a></p>
             <div id="custom">
-                <div class="figure1">
+                <div class="figure1" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/richard.png" /><br />
                     <p>Richard Hendricks</p><span>Founder & CEO</span>
                 </div>
-                <div class="figure2">
+                <div class="figure2" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/dines.png" /><br />
                     <p>Dinesh Chugtai</p><span>Senior Programmer</span>
                 </div>
-                <div class="figure3">
+                <div class="figure3" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/berthram.png" /><br />
                     <p>Bertram Gilfoyle</p><span>Chief Systems Architect</span>
                 </div>
-                <div class="figure4">
+                <div class="figure4" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/jared.png" /><br />
                     <p>Jared Dunn</p><span>Chief Operating Officer</span>
                 </div>
-                <div class="figure5">
+                <div class="figure5" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/monica.png" /><br />
                     <p>Monica Hall</p><span>Chief Financial Officer</span>
                 </div>
-                <div class="figure6">
+                <div class="figure6" data-aos="flip-left" data-aos-duration="2000">
                     <img src="images/neison.png" /><br />
                     <p>Nelson Bighetti</p><span>Majority Investor</span>
                 </div>
             </div>
-    </div>
+        </section>
+    </section>
     <footer>
+        <section class="container">
             <p>
                 All other trademarks and copyrights are the property of their<br /> respective owners. Use of these
                 names,
                 trademarks and brands <br /> does not imply endorsement.
             </p>
+        </section>
     </footer>
+
+    <script>AOS.init();</script>
 </body>
 
 </html>
