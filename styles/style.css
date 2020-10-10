@@ -190,9 +190,12 @@ footer {
     }
     #logo_txt label.toggleMenu{
         display: block;
+        max-width: 71px;
+        margin-left: 0;
     }
     #logo_txt input.toggleMenu:checked ~ ul{
         display: block;
+        text-align: left;
         padding: 0px;
     }
 }
@@ -211,13 +214,14 @@ footer {
         margin-left: 0px;
     }
     #hero_block p{
-        font-size: 25px;
+        font-size: 35px;
+        margin: 50px 0;
     }
     #introducing p:first-child{
         font-size: 30px;
     }
     #teg{
-        font-size: 30px;
+        font-size: 35px;
     }
     .jumbotron p {
         margin: 160px 0;
