@@ -54,6 +54,11 @@ body {
     text-transform: uppercase;
 }
 
+li:not(:last-child)::after{
+    content: "|";
+    padding: 8px;
+}
+
 /* section jumbotron style */
 .jumbotron {
     background: url(../images/image.png) no-repeat;
